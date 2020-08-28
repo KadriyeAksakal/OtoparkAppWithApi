@@ -1,0 +1,37 @@
+page-home {
+    .slide-div{
+        width: 100%;
+        height: 75%
+    }
+ .swiper-slide{
+     width: auto;
+     height: 65%;
+ }
+ .swiper-slide img{
+     width: 100%;
+     float: right;
+     height: 50%;
+ }
+ .card{
+     width: auto;
+     height: 10%;
+ }
+ .icon{
+     color:rgb(24, 33, 116);
+ }
+ .bttn1{
+     margin-top:15px;
+    background-color: color($colors,renk1);
+  
+ }
+ .bttn2{
+     background-color: color($colors,renk2);
+   
+ }
+ .bttn3{
+    
+    background-color:color($colors,renk3);
+
+ }
+}
+$button-md-border-radius:15px;

@@ -1,0 +1,55 @@
+
+$font-path: "../assets/fonts";
+
+
+$app-direction: ltr;
+
+
+@import "ionic.globals";
+
+
+$colors: (
+  primary:    #56ccf2,
+  secondary:   #8e9eab,
+  danger:     #00eeff,
+  light:      #f4f4f4,
+  dark:       #222,
+  renk1:(
+    base:  #56ccf2,
+    contrast: #fff,
+  ),
+  renk2:(
+    base: #56ccf2,
+    contrast: #fff,
+  ),
+  renk3:( 
+     base:  #65c7f7,
+     contrast: #fff,
+  ),
+  renk4:(
+    base: #8e9eab,
+    contrast: #fff,
+     
+  )
+
+);
+
+$text-input-md-highlight-color:color($colors, danger);
+$label-md-text-color:#000;
+$button-md-background-color-hover:56ccf2;
+$button-md-border-radius:15px;
+/*$button-round-border-radius	:15px;*/
+$button-md-margin-top:15px;
+/*$background-md-color: #fff;*/
+
+@import "ionic.theme.default";
+
+
+
+
+@import "ionic.ionicons";
+
+
+@import "roboto";
+
+@import "noto-sans";

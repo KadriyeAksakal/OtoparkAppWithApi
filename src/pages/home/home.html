@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     <img src="../../assets/imgs/kbb.png" />
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <div class="slide-div">
+    <ion-slides pager=true direction="horizontal" speed="1000"  slidesPerView="1">
+      <ion-slide  pager=slide class="swiper-slide" class= "swiper-slide img">
+        <ion-card class="card">
+          <img src="../../assets/imgs/kbblgo.png" float right>
+        </ion-card>
+      </ion-slide>
+        <ion-slide  pager=slide class="swiper-slide" class= "swiper-slide img">
+          <ion-card block class="card">
+            <img src="../../assets/imgs/kbblgo.png" float right>
+          </ion-card>
+        </ion-slide>
+         <ion-slide pager=slide class="swiper-slide" class= "swiper-slide img">
+          <ion-card class="card">
+            <img src="../../assets/imgs/kbblgo.png" float right>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+ </div>
+  
+
+<button (click)="arac()" ion-button round padding full  icon-start class="bttn1">
+  <ion-icon name="car" item-left></ion-icon>
+      Çekilen Araç Sorgulama
+</button>
+<button (click)="otopark()" ion-button   round padding full icon-start class="bttn2">
+    <ion-icon><img src="../../assets/imgs/parking-sign.png"/></ion-icon>
+        Kent Meydanı Otopark
+  </button>
+  <button  (click)="profil()" ion-button  round padding full  icon-start  class="bttn3">
+      <ion-icon name="person"></ion-icon>
+         Profilim
+    </button>
+   
+</ion-content>
+
+
+ 
